@@ -21,6 +21,7 @@
 		9F9CE3E019253F6B00CD4ECB /* App2_bibliotecaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE3DF19253F6B00CD4ECB /* App2_bibliotecaTests.m */; };
 		9F9CE3EC19253FA200CD4ECB /* ViewControllerMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE3EA19253FA200CD4ECB /* ViewControllerMain.m */; };
 		9F9CE3ED19253FA200CD4ECB /* ViewControllerMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F9CE3EB19253FA200CD4ECB /* ViewControllerMain.xib */; };
+		9F9CE3F01925486500CD4ECB /* Registro.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9CE3EF1925486500CD4ECB /* Registro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9F9CE3E919253FA200CD4ECB /* ViewControllerMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerMain.h; sourceTree = "<group>"; };
 		9F9CE3EA19253FA200CD4ECB /* ViewControllerMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerMain.m; sourceTree = "<group>"; };
 		9F9CE3EB19253FA200CD4ECB /* ViewControllerMain.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerMain.xib; sourceTree = "<group>"; };
+		9F9CE3EE1925486500CD4ECB /* Registro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Registro.h; sourceTree = "<group>"; };
+		9F9CE3EF1925486500CD4ECB /* Registro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Registro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		9F9CE3AE19253F6B00CD4ECB = {
 			isa = PBXGroup;
 			children = (
+				9F9CE3EE1925486500CD4ECB /* Registro.h */,
+				9F9CE3EF1925486500CD4ECB /* Registro.m */,
 				9F9CE3E919253FA200CD4ECB /* ViewControllerMain.h */,
 				9F9CE3EA19253FA200CD4ECB /* ViewControllerMain.m */,
 				9F9CE3EB19253FA200CD4ECB /* ViewControllerMain.xib */,
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9CE3F01925486500CD4ECB /* Registro.m in Sources */,
 				9F9CE3CB19253F6B00CD4ECB /* AppDelegate.m in Sources */,
 				9F9CE3EC19253FA200CD4ECB /* ViewControllerMain.m in Sources */,
 				9F9CE3C719253F6B00CD4ECB /* main.m in Sources */,
