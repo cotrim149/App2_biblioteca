@@ -14,4 +14,6 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtIsbn;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *switchTipoRegistro;
 
+-(IBAction)btnEnviar:(id)sender;
+
 @end

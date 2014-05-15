@@ -64,13 +64,24 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="YYn-W5-t4C">
-                                    <rect key="frame" x="99" y="289" width="123" height="29"/>
+                                    <rect key="frame" x="99" y="331" width="123" height="29"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <segments>
                                         <segment title="Livro"/>
                                         <segment title="Periódico"/>
                                     </segments>
                                 </segmentedControl>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHu-kw-6Tn">
+                                    <rect key="frame" x="43" y="461" width="234" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <color key="backgroundColor" red="0.010577411544824566" green="0.80339205994897955" blue="0.035285243144988182" alpha="1" colorSpace="calibratedRGB"/>
+                                    <state key="normal" title="Enviar">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnEnviar:" destination="-1" eventType="touchUpInside" id="esB-y2-CLU"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <constraints>
