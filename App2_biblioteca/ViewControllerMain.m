@@ -36,11 +36,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.txtAutor resignFirstResponder];
+    [self.txtAnoPublicacao resignFirstResponder];
+    [self.txtIsbn resignFirstResponder];
+    [self.txtTitulo resignFirstResponder];
+
+}
+
 -(IBAction)btnEnviar:(id)sender{
     Publicacao* publicacao = [[Publicacao alloc] init];
     
     publicacao.titulo = self.txtTitulo.text;
-    publicacao.autor = self.txtAutor.text;
     publicacao.isbn = self.txtIsbn.text;
     publicacao.anoPublicacao = self.txtAnoPublicacao.text;
     
@@ -53,6 +60,18 @@
         NSLog(@"Periodico selecionado");
         publicacao.tipo = P;
     }
+    
+    NSString* infoTxtAutores = [[NSString alloc] initWithString:self.txtAutor.text];
+    
+    NSArray* autores = [[NSArray alloc ] initWithArray:[infoTxtAutores componentsSeparatedByString:@";"]];
+    
+    if (autores) {
+        NSLog(@"array nao existe!");
+    } else{
+        NSLog(@"%@",autores);
+    }
+    
+    
 
 }
 

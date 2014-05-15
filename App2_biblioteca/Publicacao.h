@@ -19,7 +19,7 @@ NS_ENUM(char, tipoRegistro){
 
 @property (nonatomic) NSString* titulo;
 @property (nonatomic) NSString* isbn;
-@property (nonatomic) NSString* autor;
+@property (nonatomic) NSMutableArray* autores;
 @property (nonatomic) NSString* anoPublicacao;
 @property (nonatomic) enum tipoRegistro tipo;
 
