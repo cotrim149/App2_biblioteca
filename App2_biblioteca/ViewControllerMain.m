@@ -42,6 +42,7 @@
     publicacao.titulo = self.txtTitulo.text;
     publicacao.autor = self.txtAutor.text;
     publicacao.isbn = self.txtIsbn.text;
+    publicacao.anoPublicacao = self.txtAnoPublicacao.text;
     
     if(self.switchTipoRegistro.selectedSegmentIndex == 0){
         NSLog(@"Livro selecionado");

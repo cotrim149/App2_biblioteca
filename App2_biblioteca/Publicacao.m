@@ -11,7 +11,9 @@
 @implementation Publicacao
 
 -(NSString*)description{
-    return [NSString stringWithFormat:@""];
+    
+    return [NSString stringWithFormat:@"%c%@/%@",self.tipo,self.isbn,self.anoPublicacao];
+    
 }
 
 @end

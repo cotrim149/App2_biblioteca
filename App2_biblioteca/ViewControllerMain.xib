@@ -8,6 +8,7 @@
             <connections>
                 <outlet property="searchDisplayController" destination="yrJ-dP-e2h" id="EBf-hQ-mXK"/>
                 <outlet property="switchTipoRegistro" destination="YYn-W5-t4C" id="5qp-Wj-8aQ"/>
+                <outlet property="txtAnoPublicacao" destination="iTo-Pf-w1o" id="6Yc-bR-eMn"/>
                 <outlet property="txtAutor" destination="fa2-CU-JnX" id="O6X-mB-XUr"/>
                 <outlet property="txtIsbn" destination="9NY-pu-Utj" id="oZw-ha-LG8"/>
                 <outlet property="txtTitulo" destination="7Md-i3-oX4" id="jSK-oL-RyI"/>
@@ -40,7 +41,7 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ISBN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BC-Cm-PI1">
-                                    <rect key="frame" x="20" y="231" width="40" height="21"/>
+                                    <rect key="frame" x="20" y="273" width="40" height="21"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="highlightedColor"/>
@@ -58,7 +59,7 @@
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9NY-pu-Utj">
-                                    <rect key="frame" x="68" y="227" width="216" height="30"/>
+                                    <rect key="frame" x="68" y="269" width="216" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
@@ -82,6 +83,18 @@
                                         <action selector="btnEnviar:" destination="-1" eventType="touchUpInside" id="esB-y2-CLU"/>
                                     </connections>
                                 </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ano publicação" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B2A-jL-Svs">
+                                    <rect key="frame" x="20" y="213" width="120" height="21"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iTo-Pf-w1o">
+                                    <rect key="frame" x="148" y="209" width="136" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <constraints>

@@ -13,6 +13,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *txtAutor;
 @property (weak, nonatomic) IBOutlet UITextField *txtIsbn;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *switchTipoRegistro;
+@property (weak, nonatomic) IBOutlet UITextField *txtAnoPublicacao;
 
 -(IBAction)btnEnviar:(id)sender;
 
