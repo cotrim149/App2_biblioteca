@@ -8,12 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Registro : NSObject
+NS_ENUM(char, tipoRegistro){
+    L,
+    P
+};
+
+
+@interface Publicacao : NSObject
+
 
 @property (nonatomic) NSString* titulo;
 @property (nonatomic) NSString* isbn;
 @property (nonatomic) NSString* autor;
+@property (nonatomic) enum tipoRegistro tipo;
 
-
+-(NSString*)description;
 
 @end

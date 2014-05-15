@@ -6,8 +6,12 @@
 //  Copyright (c) 2014 Victor de Lima. All rights reserved.
 //
 
-#import "Registro.h"
+#import "Publicacao.h"
 
-@implementation Registro
+@implementation Publicacao
+
+-(NSString*)description{
+    return [NSString stringWithFormat:@""];
+}
 
 @end

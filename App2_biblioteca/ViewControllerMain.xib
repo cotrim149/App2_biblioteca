@@ -7,6 +7,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewControllerMain">
             <connections>
                 <outlet property="searchDisplayController" destination="yrJ-dP-e2h" id="EBf-hQ-mXK"/>
+                <outlet property="switchTipoRegistro" destination="YYn-W5-t4C" id="5qp-Wj-8aQ"/>
+                <outlet property="txtAutor" destination="fa2-CU-JnX" id="O6X-mB-XUr"/>
+                <outlet property="txtIsbn" destination="9NY-pu-Utj" id="oZw-ha-LG8"/>
+                <outlet property="txtTitulo" destination="7Md-i3-oX4" id="jSK-oL-RyI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewControllerMain : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txtTitulo;
+@property (weak, nonatomic) IBOutlet UITextField *txtAutor;
+@property (weak, nonatomic) IBOutlet UITextField *txtIsbn;
+@property (weak, nonatomic) IBOutlet UISegmentedControl *switchTipoRegistro;
 
 @end
